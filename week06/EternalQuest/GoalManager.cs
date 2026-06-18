@@ -432,6 +432,7 @@ namespace EternalQuest
 
                 var options = new JsonSerializerOptions
                 {
+                    WriteIndented = true,
                     Converters = { new GoalConverter() }
                 };
 

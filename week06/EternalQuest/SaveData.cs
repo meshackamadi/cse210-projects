@@ -9,5 +9,12 @@ namespace EternalQuest
         public int GoalsCompleted { get; set; }
         public int ChecklistItemsCompleted { get; set; }
         public List<Achievement> Achievements { get; set; }
+
+        // Parameterless constructor for JSON deserialization
+        public SaveData()
+        {
+            Goals = new List<Goal>();
+            Achievements = new List<Achievement>();
+        }
     }
 }

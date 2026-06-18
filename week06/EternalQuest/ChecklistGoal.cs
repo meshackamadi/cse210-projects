@@ -10,6 +10,17 @@ namespace EternalQuest
 
         public int TargetCount => _targetCount;
         public int TimesCompleted => _timesCompleted;
+        public int BonusPoints => _bonusPoints;
+
+        // Parameterless constructor for JSON deserialization
+        public ChecklistGoal() : base()
+        {
+            _type = "Checklist";
+            _targetCount = 0;
+            _timesCompleted = 0;
+            _bonusPoints = 0;
+            _isComplete = false;
+        }
 
         public ChecklistGoal(string name, string description, int points, int targetCount, int bonusPoints) 
             : base(name, description, points)

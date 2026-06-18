@@ -15,6 +15,16 @@ namespace EternalQuest
         public int CurrentStreak => _currentStreak;
         public int TimesCompleted => _timesCompleted;
 
+        // Parameterless constructor for JSON deserialization
+        public EternalGoal() : base()
+        {
+            _type = "Eternal";
+            _timesCompleted = 0;
+            _currentStreak = 0;
+            _isComplete = false;
+            _lastCompletedDate = DateTime.MinValue;
+        }
+
         public EternalGoal(string name, string description, int points) 
             : base(name, description, points)
         {

@@ -2,6 +2,12 @@ namespace EternalQuest
 {
     public class SimpleGoal : Goal
     {
+        // Parameterless constructor for JSON deserialization
+        public SimpleGoal() : base()
+        {
+            _type = "Simple";
+        }
+
         public SimpleGoal(string name, string description, int points) 
             : base(name, description, points)
         {

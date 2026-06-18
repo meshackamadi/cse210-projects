@@ -1,0 +1,56 @@
+{
+  "Goals": [
+    {
+      "CurrentStreak": 0,
+      "TimesCompleted": 0,
+      "_timesCompleted": 0,
+      "_currentStreak": 0,
+      "_lastCompletedDate": "0001-01-01T00:00:00",
+      "Name": "Monthly Temple Attendance",
+      "Description": "Attending the Temple Monthly to renew my convenant and possible potential sealing with a daughter of Heavenly father.",
+      "Points": 100,
+      "IsComplete": false,
+      "Type": "Eternal",
+      "_name": "Monthly Temple Attendance",
+      "_description": "Attending the Temple Monthly to renew my convenant and possible potential sealing with a daughter of Heavenly father.",
+      "_points": 100,
+      "_isComplete": false,
+      "_type": "Eternal"
+    }
+  ],
+  "TotalPoints": 0,
+  "GoalsCompleted": 0,
+  "ChecklistItemsCompleted": 0,
+  "Achievements": [
+    {
+      "Name": "First Goal!",
+      "Description": "Complete your first goal",
+      "Unlocked": false,
+      "UnlockedDate": null
+    },
+    {
+      "Name": "Centurion",
+      "Description": "Reach 1000 total points",
+      "Unlocked": false,
+      "UnlockedDate": null
+    },
+    {
+      "Name": "Goal Master",
+      "Description": "Complete 10 goals total",
+      "Unlocked": false,
+      "UnlockedDate": null
+    },
+    {
+      "Name": "Perfect Week",
+      "Description": "Maintain a 7-day streak on any eternal goal",
+      "Unlocked": false,
+      "UnlockedDate": null
+    },
+    {
+      "Name": "Persistence",
+      "Description": "Complete 50 checklist items",
+      "Unlocked": false,
+      "UnlockedDate": null
+    }
+  ]
+}

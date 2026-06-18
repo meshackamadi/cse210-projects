@@ -7,6 +7,18 @@ namespace EternalQuest
         [JsonInclude] private int _timesRecorded;
         [JsonInclude] private int _goalCount; // How many times to overcome
 
+        public int TimesRecorded => _timesRecorded;
+        public int GoalCount => _goalCount;
+
+        // Parameterless constructor for JSON deserialization
+        public NegativeGoal() : base()
+        {
+            _type = "Negative";
+            _timesRecorded = 0;
+            _goalCount = 0;
+            _isComplete = false;
+        }
+
         public NegativeGoal(string name, string description, int points, int goalCount) 
             : base(name, description, points)
         {

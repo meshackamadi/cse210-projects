@@ -16,6 +16,16 @@ namespace EternalQuest
         public bool IsComplete => _isComplete;
         public string Type => _type;
 
+        // Parameterless constructor for JSON deserialization
+        public Goal() 
+        {
+            _name = "";
+            _description = "";
+            _points = 0;
+            _isComplete = false;
+            _type = "Base";
+        }
+
         public Goal(string name, string description, int points)
         {
             _name = name;
